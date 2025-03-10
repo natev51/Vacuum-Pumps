@@ -17,6 +17,7 @@
 			<Item Name="Vacuum Pumps.lvclass" Type="LVClass" URL="../Vacuum Pumps/Vacuum Pumps/Vacuum Pumps.lvclass"/>
 		</Item>
 		<Item Name="TCP-380" Type="Folder">
+			<Item Name="Receive Digital Inputs Msg.lvclass" Type="LVClass" URL="../TCP 380/TCP 380 Messages/Receive Digital Inputs Msg/Receive Digital Inputs Msg.lvclass"/>
 			<Item Name="TCP 380.lvclass" Type="LVClass" URL="../TCP 380/TCP 380/TCP 380.lvclass"/>
 		</Item>
 		<Item Name="Mech Pump" Type="Folder">

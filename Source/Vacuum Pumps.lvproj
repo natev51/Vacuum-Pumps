@@ -19,6 +19,9 @@
 		<Item Name="TCP-380" Type="Folder">
 			<Item Name="TCP 380.lvclass" Type="LVClass" URL="../TCP 380/TCP 380/TCP 380.lvclass"/>
 		</Item>
+		<Item Name="Mech Pump" Type="Folder">
+			<Item Name="Mech Pump.lvclass" Type="LVClass" URL="../Mech Pump/Mech Pump/Mech Pump.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

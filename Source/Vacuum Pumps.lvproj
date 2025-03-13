@@ -13,9 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Messages" Type="Folder">
-			<Item Name="Palette" Type="Folder">
-				<Item Name="BD Toggle Power.vi" Type="VI" URL="../Messages/BD Toggle Power.vi"/>
-			</Item>
 			<Item Name="Toggle Power Msg.lvclass" Type="LVClass" URL="../Messages/Toggle Power Interface Msg Messages/Toggle Power Msg/Toggle Power Msg.lvclass"/>
 			<Item Name="Toggle Power Interface Msg.lvclass" Type="LVClass" URL="../Messages/Toggle Power Interface Msg/Toggle Power Interface Msg.lvclass"/>
 		</Item>

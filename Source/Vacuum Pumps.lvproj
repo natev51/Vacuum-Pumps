@@ -12,18 +12,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Vacuum Pumps" Type="Folder">
-			<Item Name="Toggle Power Msg.lvclass" Type="LVClass" URL="../Vacuum Pumps/Vacuum Pumps Messages/Toggle Power Msg/Toggle Power Msg.lvclass"/>
-			<Item Name="Vacuum Pumps.lvclass" Type="LVClass" URL="../Vacuum Pumps/Vacuum Pumps/Vacuum Pumps.lvclass"/>
+		<Item Name="Messages" Type="Folder">
+			<Item Name="Palette" Type="Folder">
+				<Item Name="BD Toggle Power.vi" Type="VI" URL="../Messages/BD Toggle Power.vi"/>
+			</Item>
+			<Item Name="Toggle Power Msg.lvclass" Type="LVClass" URL="../Messages/Toggle Power Interface Msg Messages/Toggle Power Msg/Toggle Power Msg.lvclass"/>
+			<Item Name="Toggle Power Interface Msg.lvclass" Type="LVClass" URL="../Messages/Toggle Power Interface Msg/Toggle Power Interface Msg.lvclass"/>
 		</Item>
 		<Item Name="TCP-380" Type="Folder">
 			<Item Name="TCP 380.lvclass" Type="LVClass" URL="../TCP 380/TCP 380/TCP 380.lvclass"/>
 		</Item>
 		<Item Name="Mech Pump" Type="Folder">
 			<Item Name="Mech Pump.lvclass" Type="LVClass" URL="../Mech Pump/Mech Pump/Mech Pump.lvclass"/>
-		</Item>
-		<Item Name="Palette" Type="Folder">
-			<Item Name="FP Digital Output.vi" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Digital Tasks/Palette/FP Digital Output.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -32,7 +32,6 @@
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Digital Configuration Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Digital Tasks/Utilities/Digital Configuration Parameters.ctl"/>
@@ -207,6 +206,7 @@
 				<Item Name="Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Boolean Array.vi"/>
 				<Item Name="Parse Digital Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Digital Tasks/Utilities/Parse Digital Waveform.vi"/>
 				<Item Name="Digital Input Interface Messages.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NathanCo/Digital Tasks/Digital Input/Digital Input Interface Messages/Digital Input Interface Messages/Digital Input Interface Messages.lvclass"/>
+				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
